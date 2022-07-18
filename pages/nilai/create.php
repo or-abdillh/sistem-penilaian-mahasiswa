@@ -1,6 +1,8 @@
 <?php
-
+session_start();
 require "../../connection.php";
+
+if ( empty($_SESSION["login"]) ) header ("Location: ../../login.php?res=2");
 
 function createGrade($val) {
   $num = intval($val);

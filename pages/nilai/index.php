@@ -1,6 +1,8 @@
 <?php
-
+session_start();
 require "../../connection.php";
+
+if ( empty($_SESSION["login"]) ) header ("Location: ../../login.php?res=2");
 
 $SQL = "SELECT mahasiswa.nama, nilai.mata_kuliah, nilai.id, nilai.nilai, nilai.grade FROM mahasiswa INNER JOIN nilai ON mahasiswa.id = nilai.id_mhs";
 $query_results = mysqli_query($conn, $SQL);

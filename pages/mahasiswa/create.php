@@ -1,6 +1,8 @@
 <?php
-
+session_start();
 require "../../connection.php";
+
+if ( empty($_SESSION["login"]) ) header ("Location: ../../login.php?res=2");
 
 if ( isset( $_POST["create"] ) )
 {

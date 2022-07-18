@@ -1,3 +1,9 @@
+<?php
+session_start();
+if ( empty($_SESSION["login"]) ) header ("Location: ./login.php?res=2");
+
+?>
+
 <!doctype html>
 <html lang="en">
   <head>
