@@ -27,5 +27,8 @@ Sistem Peniaian Mahasiswa yang mencakup pengelolaan data mahasiswa, data nilai m
 - [x] Font Awesome 6
 - [x] Google Fonts Poppins
 
+### Accounts
+Login menggunakan username **admin** dan password **admin**
+
 Last edited 18/07/2022 <br>
 By [OR ABDILLH](http://or-abdillh.vercel.app)
