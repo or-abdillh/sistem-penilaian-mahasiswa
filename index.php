@@ -55,7 +55,7 @@
         <div class="card-body">
           <h5 class="card-title">Kelola Data Nilai</h5>
           <p class="card-text">Data nilai meliputi nama mahasiswa, mata kuliah, nilai dan grade</p>
-          <a href="#" class="btn btn-primary">Lanjut</a>
+          <a href="pages/nilai" class="btn btn-primary">Lanjut</a>
         </div>
       </div>
       <!-- Card -->
