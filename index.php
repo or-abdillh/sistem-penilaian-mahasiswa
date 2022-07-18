@@ -32,7 +32,7 @@ if ( empty($_SESSION["login"]) ) header ("Location: ./login.php?res=2");
   <!-- Nav Bar -->
   <nav class="navbar navbar-light bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#">Sistem Penilaian Mahasiswa</a>
+      <a class="navbar-brand text-white" href="./index.php">Sistem Penilaian Mahasiswa</a>
     </div>
   </nav>
 
@@ -47,7 +47,7 @@ if ( empty($_SESSION["login"]) ) header ("Location: ./login.php?res=2");
     <!-- Jumbotron -->
 
     <!-- Menu -->
-    <section class="container md:d-flex justify-content-center gap-3">
+    <section class="container d-md-flex justify-content-center gap-3">
       <!-- Card -->
       <div class="card mb-3">
         <div class="card-body">

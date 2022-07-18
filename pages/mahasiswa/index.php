@@ -60,7 +60,7 @@ while ( $row = mysqli_fetch_assoc($query_results) )
   <!-- Nav Bar -->
   <nav class="navbar navbar-light bg-primary">
     <div class="container-fluid">
-      <a class="navbar-brand text-white" href="#">Sistem Penilaian Mahasiswa</a>
+      <a class="navbar-brand text-white" href="../../index.php">Sistem Penilaian Mahasiswa</a>
     </div>
   </nav>
   
