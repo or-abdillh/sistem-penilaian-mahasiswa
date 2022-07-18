@@ -69,7 +69,7 @@ if ( empty($_SESSION["login"]) ) header ("Location: ./login.php?res=2");
         <div class="card-body">
           <h5 class="card-title">Kelola Data Admin</h5>
           <p class="card-text">Data admin meliputi username, password, dan avatar</p>
-          <a href="#" class="btn btn-primary">Lanjut</a>
+          <a href="pages/admin" class="btn btn-primary">Lanjut</a>
         </div>
       </div>
    </section>
